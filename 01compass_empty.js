@@ -10,19 +10,19 @@ oriented = function(e) {
         
 
         if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = "north 5";
+                text_area.textContent = "turn right";
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "east 5";
+                text_area.textContent = "turn right";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "south 5";
+                text_area.textContent = "turn right";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "west 5";
+                text_area.textContent = "turn right";
         }
 
          //text_area.textContent = compassHeading;
