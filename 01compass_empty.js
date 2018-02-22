@@ -9,20 +9,24 @@ oriented = function(e) {
         }
         
 
-        if(compassHeading > 315 || compassHeading < 45) {
+        if(compassHeading > 315 || compassHeading < 30) {
                 text_area.textContent = "turn right";
+        }
+
+        if(compassHeading >= 30 && compassHeading < 45) {
+                text_area.textContent = "continue";
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "turn right";
+                text_area.textContent = "further right";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "turn right";
+                text_area.textContent = "just a bit more";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "turn right";
+                text_area.textContent = "you have arrived. madvance three steps. find an object and put it into the sachel";
         }
 
          //text_area.textContent = compassHeading;
