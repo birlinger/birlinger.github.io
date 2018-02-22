@@ -9,24 +9,57 @@ oriented = function(e) {
         }
         
 
-        if(compassHeading > 315 || compassHeading < 30) {
-                text_area.textContent = "turn right";
+        if(compassHeading > 315 || compassHeading < 10) {
+                text_area.textContent = "don't";
+        }
+
+        if(compassHeading >= 10 && compassHeading < 30) {
+                text_area.textContent = "stop";
         }
 
         if(compassHeading >= 30 && compassHeading < 45) {
-                text_area.textContent = "continue";
+                text_area.textContent = "moving";
         }
 
-        if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "further right";
+        if(compassHeading >= 45 && compassHeading < 75) {
+                text_area.textContent = "or";
         }
 
-        if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "just a bit more";
+        if(compassHeading >= 75 && compassHeading < 95) {
+                text_area.textContent = "you";
         }
 
-        if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "you have arrived. madvance three steps. find an object and put it into the sachel";
+        if(compassHeading >= 95 && compassHeading < 105) {
+                text_area.textContent = "won't";
+        }
+
+        if(compassHeading >= 105 && compassHeading < 125) {
+                text_area.textContent = "be";
+        }
+
+        if(compassHeading >= 125 && compassHeading < 145) {
+                text_area.textContent = "able";
+        }
+
+        if(compassHeading >= 145 && compassHeading < 165) {
+                text_area.textContent = "to";
+        }
+
+        if(compassHeading >= 165 && compassHeading < 190) {
+                text_area.textContent = "read";
+        }
+
+        if(compassHeading >= 190 && compassHeading < 225) {
+                text_area.textContent = "the";
+        }
+
+
+        if(compassHeading >= 225 && compassHeading < 265) {
+                text_area.textContent = "whole";
+        }
+
+        if(compassHeading >= 265 && compassHeading < 315) {
+                text_area.textContent = "text!";
         }
 
          //text_area.textContent = compassHeading;
