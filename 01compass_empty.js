@@ -10,43 +10,43 @@ oriented = function(e) {
         
 
         if(compassHeading > 315 || compassHeading < 10) {
-                text_area.textContent = "don't";
+                text_area.textContent = "Welcome!";
         }
 
         if(compassHeading >= 10 && compassHeading < 30) {
-                text_area.textContent = "stop";
+                text_area.textContent = "Instructions:";
         }
 
         if(compassHeading >= 30 && compassHeading < 45) {
-                text_area.textContent = "moving";
+                text_area.textContent = "1:";
         }
 
         if(compassHeading >= 45 && compassHeading < 75) {
-                text_area.textContent = "or";
+                text_area.textContent = "go to google streetview.";
         }
 
         if(compassHeading >= 75 && compassHeading < 95) {
-                text_area.textContent = "you";
+                text_area.textContent = "2:";
         }
 
         if(compassHeading >= 95 && compassHeading < 105) {
-                text_area.textContent = "won't";
+                text_area.textContent = "find your location.";
         }
 
         if(compassHeading >= 105 && compassHeading < 125) {
-                text_area.textContent = "be";
+                text_area.textContent = "3:";
         }
 
         if(compassHeading >= 125 && compassHeading < 145) {
-                text_area.textContent = "able";
+                text_area.textContent = "explore ";
         }
 
         if(compassHeading >= 145 && compassHeading < 165) {
-                text_area.textContent = "to";
+                text_area.textContent = "any ";
         }
 
         if(compassHeading >= 165 && compassHeading < 190) {
-                text_area.textContent = "read";
+                text_area.textContent = "of";
         }
 
         if(compassHeading >= 190 && compassHeading < 225) {
@@ -55,11 +55,11 @@ oriented = function(e) {
 
 
         if(compassHeading >= 225 && compassHeading < 265) {
-                text_area.textContent = "whole";
+                text_area.textContent = "four";
         }
 
         if(compassHeading >= 265 && compassHeading < 315) {
-                text_area.textContent = "text!";
+                text_area.textContent = "realities";
         }
 
          //text_area.textContent = compassHeading;
